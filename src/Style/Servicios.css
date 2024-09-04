@@ -1,0 +1,47 @@
+.container_servicios {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    background-color: #f8f8f8;
+    border: 2px solid rgba(0,0,0,0.03);
+    border-radius: 16px;
+    width: 15%;
+    height: 20rem;
+    padding: 36px 24px;
+}
+
+.image_icon img{
+    width: 44px;
+    height: 33px;
+}
+
+.letters_serv h3, .letters_serv p {
+    color: #4A1162;
+}
+
+.letters_serv h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.letters_serv p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.button_serv {
+    margin-top: 15px;
+}
+
+.button_serv button {
+    padding: 8px 30px;
+}
+
+.button_serv button span {
+    font-weight: 400;
+    font-size: 15px;
+}

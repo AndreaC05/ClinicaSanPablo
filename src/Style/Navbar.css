@@ -1,0 +1,29 @@
+.navbar {
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img_navbar {
+    /* width: 100px; */
+}
+
+.img_navbar img {
+    width: 191px;
+    height: 51px;
+}
+
+.list_navbar {
+    /* border: 1px solid black; */
+}
+
+.navegate_navbar ul li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navegate_navbar ul li a {
+    text-decoration: none;
+}

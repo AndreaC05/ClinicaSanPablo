@@ -87,7 +87,7 @@ export default function HomePage() {
 
         {/* Ícono de WhatsApp */}
         <a
-          href="https://wa.me/123456789" // Reemplaza con tu número de WhatsApp
+          href="https://wa.me/+14155238886" // Reemplaza con tu número de WhatsApp
           className="whatsapp_float"
           target="_blank"
           rel="noopener noreferrer"

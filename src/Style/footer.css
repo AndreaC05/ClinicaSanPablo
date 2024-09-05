@@ -1,0 +1,83 @@
+.footer {
+  background-color: #502267; 
+  padding: 2rem 1rem;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.avenida{
+  margin-bottom: 6px;
+}
+
+.footer-column p{
+  margin-top: 3px;
+}
+.footer-column h2, .footer-column h3 {
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: white;
+  color: #5d1673;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-media span {
+  cursor: pointer;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.app-buttons img {
+  width: 100px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}

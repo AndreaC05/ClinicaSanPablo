@@ -1,15 +1,19 @@
 .navbar {
     width: 100%;
-    /* border: 1px solid black; */
+    height: 125px;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
+    background-color: white;
+    z-index: 20;
 }
 
 .img_navbar {
     /* width: 100px; */
 }
-
+.LogoMobile{
+    margin-left:70px;
+  }
 .img_navbar img {
     width: 191px;
     height: 51px;

@@ -13,6 +13,10 @@
     padding: 36px 24px;
 }
 
+.section:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
 .image_icon img{
     width: 44px;
     height: 33px;

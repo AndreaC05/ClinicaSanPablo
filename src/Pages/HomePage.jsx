@@ -6,6 +6,7 @@ import "../Style/HomePage.css";
 import WhatsAppIcon from "../assets/images.jfif";
 
 import Convenios from "../Components/Convenios";
+import Footer from "../Components/footer";
 
 export default function HomePage() {
   return (
@@ -94,6 +95,7 @@ export default function HomePage() {
         >
           <img src={WhatsAppIcon} alt="WhatsApp" />
         </a>
+        <Footer/>
       </div>
     </>
   );

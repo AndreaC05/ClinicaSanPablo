@@ -8,7 +8,7 @@ import Staff from "../assets/Servicios/stethoscope-solid.png";
 
 function ServicioItem({ icono, titulo, descripcion, etiquetaBoton }) {
   return (
-    <div className="section">
+    <div className="section m-2 w-10  md:w-5 lg:w-2 ">
       <div className="image_icon">
         <img src={icono} alt={titulo} />
       </div>
@@ -34,7 +34,8 @@ ServicioItem.propTypes = {
 export default function Servicios() {
   return (
     <>
-      <div className="container_servicios flex">
+
+          <div className="flex-wrap flex px-5 justify-content-center lg:px-8">
         <ServicioItem
           icono={Doctor}
           titulo="Reserva una cita"
@@ -61,6 +62,7 @@ export default function Servicios() {
           etiquetaBoton="Conoce al Staff"
         />
       </div>
+
     </>
   );
 }

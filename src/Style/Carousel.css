@@ -1,0 +1,26 @@
+.carousel_con {
+    width: 70rem;
+}
+
+.p-link {
+    display: none;
+}
+
+/* Estilo para el paginador circular */
+.p-carousel-indicators .p-carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+}
+
+.p-carousel-indicators .p-carousel-indicator.p-highlight {
+    background-color: #4a1162; /* Color del círculo activo */
+}
+
+/* Ajustes adicionales si es necesario */
+.p-carousel-indicators {
+    justify-content: center;
+    padding: 10px 0;
+}

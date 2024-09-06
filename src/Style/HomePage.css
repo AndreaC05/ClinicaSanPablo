@@ -89,16 +89,14 @@
 /* Ícono flotante de WhatsApp */
 .whatsapp_float {
     position: fixed;
-    bottom: 50px; /* Ajusta la distancia desde abajo */
-    right: 40px;  /* Ajusta la distancia desde la derecha */
-    z-index: 100; /* Asegúrate de que esté por encima del contenido */
+    bottom: 50px;
+    z-index: 100;
+    width: 100%;
+    text-align: center;
 }
 
 .whatsapp_float img {
-    width: 60px;   /* Tamaño del ícono */
-    height: 60px;
-    border-radius: 50%; /* Opcional: hacer que el ícono sea circular */
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle estilo */
+    width: 120px;
     transition: transform 0.3s;
 }
 

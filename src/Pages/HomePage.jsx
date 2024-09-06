@@ -3,8 +3,7 @@ import Servicios from "../Components/Servicios";
 import Medall from "../assets/medallaSPSurco.png";
 import Cuidado from "../assets/Cuidamos-de-ti.png";
 import "../Style/HomePage.css";
-import WhatsAppIcon from "../assets/images.jfif";
-
+import WhatsAppIcon from "../assets/whatsapp.png";
 import Convenios from "../Components/Convenios";
 import Footer from "../Components/footer";
 
@@ -78,12 +77,12 @@ export default function HomePage() {
         </div>
 
         <div className="container_convenios">
-            <div className="letters_convenio flex justify-content-center">
-                <h2>Convenios</h2>
-            </div>
-            <div className="carousel_convenios">
-                <Convenios />
-            </div>
+          <div className="letters_convenio flex justify-content-center">
+            <h2>Convenios</h2>
+          </div>
+          <div className="carousel_convenios">
+            <Convenios />
+          </div>
         </div>
 
         {/* Ícono de WhatsApp */}
@@ -95,7 +94,7 @@ export default function HomePage() {
         >
           <img src={WhatsAppIcon} alt="WhatsApp" />
         </a>
-        <Footer/>
+        <Footer />
       </div>
     </>
   );
